@@ -25,6 +25,7 @@ import javax.swing.JTable;
 public class StreamProductFolderRead {
 
 	public static void main(String[] args) throws FileNotFoundException {
+		//git test
 		  //폴더에 있는 모든 파일 모음  c:\\tmp\\stream
 		  Stream<String> st=getStream();
 		  int[][] monsList = new int[12][3];
