@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>로그인</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+</head>
+<body>
+  <div class="login-form">
+    <form>
+      <input type="text" name="email" id="email-input" class="text-field" placeholder="아이디" oninput="inputFunction()"><br>
+      <input type="password" name="password" id="password-input" class="text-field" placeholder="비밀번호"><br>
+      <input type="submit" value="로그인" id="submit-btn">
+    </form>
+
+    <div class="links">
+      <a href="#">비밀번호를 잊어버리셨나요?</a>
+    </div>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script>
+      function inputFunction(){
+          alert($('#email-input').val());
+        
+      
+      }
+    //#1BBC9B
+    // 여기에 코드를 작성하세요.
+  </script>
+</body>
+</html>
